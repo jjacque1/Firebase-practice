@@ -11,9 +11,9 @@ const firebaseConfig = {
   projectId: "library-website-3fe50",
   storageBucket: "library-website-3fe50.appspot.com",
   messagingSenderId: "884177706631",
-  appId: "1:884177706631:web:3891071ee6c31c1fb7a222"
+  appId: "1:884177706631:web:3891071ee6c31c1fb7a222",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const auth = getAuth(); 
+export const auth = getAuth();
